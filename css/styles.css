@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+#title {
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.buttons {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+    width: 70%;
+    transform: rotate(15deg);
+    position: absolute;
+}
+
+#features {
+    color: #595555;
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.fiticons {
+    color: #ef8172;
+    padding: 5%;
+}
+
+.fiticons:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials {
+    position: relative;
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    z-index: 1;
+}
+
+.TestImage {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.ImagesPress {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.calltoaction {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.lowquote {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    line-height: 2;
+    font-size: 3rem;
+}
+
+.footer {
+    background-color: white;
+    padding: 5% 15%;
+    color: #595555;
+    text-align: center;
+}
+
+.foticons {
+    padding: 15px;
+}
